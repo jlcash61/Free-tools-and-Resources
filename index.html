@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Tools and Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h2 {
+            cursor: pointer;
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            border: none;
+            text-align: left;
+        }
+        .content {
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-top: none;
+            display: none;
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content ul li {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .content ul li:last-child {
+            border-bottom: none;
+        }
+        .content ul li a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+        .content ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Free Tools and Resources</h1>
+</header>
+
+<div class="container">
+    <!-- Development Tools -->
+    <h2 onclick="toggleContent('development')">1. Development Tools</h2>
+    <div class="content" id="development">
+        <ul>
+            <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>: A powerful, open-source code editor with an extensive range of extensions.</li>
+            <li><a href="https://git-scm.com/" target="_blank">Git</a>: A distributed version control system essential for software development.</li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a>: Online hosting for Git repositories with free private and public repos.</li>
+            <li><a href="https://nodejs.org/" target="_blank">Node.js</a>: A JavaScript runtime built on Chrome's V8 JavaScript engine.</li>
+            <li><a href="https://www.docker.com/" target="_blank">Docker</a>: A tool designed to make it easier to create, deploy, and run applications by using containers.</li>
+            <li><a href="https://netbeans.apache.org/" target="_blank">Apache NetBeans</a>: An open-source IDE that supports multiple languages like Java, PHP, and HTML5.</li>
+            <li><a href="https://www.postman.com/" target="_blank">Postman</a>: An online tool and desktop app for API testing and development.</li>
+            <li><a href="https://www.jenkins.io/" target="_blank">Jenkins</a>: An open-source automation server for CI/CD.</li>
+        </ul>
+    </div>
+
+    <!-- Design and Multimedia -->
+    <h2 onclick="toggleContent('design')">2. Design and Multimedia</h2>
+    <div class="content" id="design">
+        <ul>
+            <li><a href="https://www.gimp.org/" target="_blank">GIMP</a>: A free and open-source raster graphics editor for image editing and retouching.</li>
+            <li><a href="https://inkscape.org/" target="_blank">Inkscape</a>: A vector graphics editor, similar to Adobe Illustrator, but free and open-source.</li>
+            <li><a href="https://krita.org/" target="_blank">Krita</a>: A professional-grade open-source painting program for digital artists.</li>
+            <li><a href="https://www.blender.org/" target="_blank">Blender</a>: A powerful open-source tool for 3D modeling, animation, and rendering.</li>
+            <li><a href="https://www.audacityteam.org/" target="_blank">Audacity</a>: A free, open-source, cross-platform audio software for multi-track recording and editing.</li>
+            <li><a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank">DaVinci Resolve</a>: A professional-grade video editing software, offering a free version with extensive features.</li>
+        </ul>
+    </div>
+
+    <!-- Productivity Tools -->
+    <h2 onclick="toggleContent('productivity')">3. Productivity Tools</h2>
+    <div class="content" id="productivity">
+        <ul>
+            <li><a href="https://www.libreoffice.org/" target="_blank">LibreOffice</a>: An open-source office suite for word processing, spreadsheets, presentations, and more.</li>
+            <li><a href="https://www.notion.so/" target="_blank">Notion</a>: An all-in-one workspace online tool for notes, tasks, and database management.</li>
+            <li><a href="https://trello.com/" target="_blank">Trello</a>: A free online tool that uses boards, lists, and cards to organize tasks and projects.</li>
+            <li><a href="https://todoist.com/" target="_blank">Todoist</a>: A task management tool that offers a free version for organizing tasks and projects.</li>
+            <li><a href="https://obsidian.md/" target="_blank">Obsidian</a>: A knowledge base that works on top of a local folder of plain text Markdown files.</li>
+            <li><a href="https://joplinapp.org/" target="_blank">Joplin</a>: An open-source note-taking and to-do application that can handle a large number of notes.</li>
+        </ul>
+    </div>
+
+    <!-- Security Tools -->
+    <h2 onclick="toggleContent('security')">4. Security Tools</h2>
+    <div class="content" id="security">
+        <ul>
+            <li><a href="https://keepassxc.org/" target="_blank">KeePassXC</a>: An open-source password manager that stores and manages your passwords securely.</li>
+            <li><a href="https://bitwarden.com/" target="_blank">Bitwarden</a>: A free, open-source password management solution for individuals, teams, and organizations.</li>
+            <li><a href="https://openvpn.net/" target="_blank">OpenVPN</a>: A full-featured open-source VPN solution that encrypts your internet connection.</li>
+            <li><a href="https://www.clamav.net/" target="_blank">ClamAV</a>: An open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.</li>
+            <li><a href="https://www.wireshark.org/" target="_blank">Wireshark</a>: A free and open-source packet analyzer used for network troubleshooting and communication protocol development.</li>
+            <li><a href="https://www.veracrypt.fr/en/Home.html" target="_blank">Veracrypt</a>: An open-source disk encryption tool that helps protect your data.</li>
+        </ul>
+    </div>
+
+    <!-- Web and Mobile Development -->
+    <h2 onclick="toggleContent('webdev')">5. Web and Mobile Development</h2>
+    <div class="content" id="webdev">
+        <ul>
+            <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>: A free and open-source CSS framework directed at responsive, mobile-first front-end web development.</li>
+            <li><a href="https://reactjs.org/" target="_blank">React</a>: A free and open-source front-end JavaScript library for building user interfaces or UI components.</li>
+            <li><a href="https://flutter.dev/" target="_blank">Flutter</a>: An open-source UI software development kit created by Google for building natively compiled applications for mobile, web, and desktop.</li>
+            <li><a href="https://phaser.io/" target="_blank">Phaser.js</a>: A free, fast, and flexible framework for building 2D games for the browser with JavaScript.</li>
+            <li><a href="https://firebase.google.com/" target="_blank">Firebase</a>: A platform developed by Google for creating mobile and web applications, offering a free tier with extensive features.</li>
+        </ul>
+    </div>
+
+    <!-- File Management and Compression -->
+    <h2 onclick="toggleContent('filemanagement')">6. File Management and Compression</h2>
+    <div class="content" id="filemanagement">
+        <ul>
+            <li><a href="https://www.7-zip.org/" target="_blank">7-Zip</a>: A free, open-source file archiver with a high compression ratio.</li>
+            <li><a href="https://peazip.github.io/" target="_blank">PeaZip</a>: A free archiver tool supporting over 180 file formats.</li>
+            <li><a href="https://www.qownnotes.org/" target="_blank">QOwnNotes</a>: An open-source file organizer and notes manager that integrates with Nextcloud.</li>
+        </ul>
+    </div>
+
+    <!-- Communication and Collaboration -->
+    <h2 onclick="toggleContent('communication')">7. Communication and Collaboration</h2>
+    <div class="content" id="communication">
+        <ul>
+            <li><a href="https://slack.com/" target="_blank">Slack</a>: A messaging app for teams that brings all your communication together in one place.</li>
+            <li><a href="https://discord.com/" target="_blank">Discord</a>: An online communication platform with free text, voice, and video channels.</li>
+            <li><a href="https://mattermost.com/" target="_blank">Mattermost</a>: An open-source alternative to Slack that can be self-hosted.</li>
+            <li><a href="https://nextcloud.com/" target="_blank">Nextcloud</a>: An open-source collaboration platform that allows you to store and share files, calendars, contacts, and more.</li>
+        </ul>
+    </div>
+
+    <!-- Backup and Sync -->
+    <h2 onclick="toggleContent('backup')">8. Backup and Sync</h2>
+    <div class="content" id="backup">
+        <ul>
+            <li><a href="https://syncthing.net/" target="_blank">Syncthing</a>: A continuous file synchronization program that synchronizes files between two or more computers in real-time, securely and privately.</li>
+            <li><a href="https://www.duplicati.com/" target="_blank">Duplicati</a>: An open-source backup software to store encrypted, incremental backups on cloud storage services.</li>
+        </ul>
+    </div>
+
+    <!-- Project Management -->
+    <h2 onclick="toggleContent('projectmanagement')">9. Project Management</h2>
+    <div class="content" id="projectmanagement">
+        <ul>
+            <li><a href="https://www.taiga.io/" target="_blank">Taiga</a>: An open-source project management tool for Agile development.</li>
+            <li><a href="https://www.openproject.org/" target="_blank">OpenProject</a>: An open-source project management software with features like task management, roadmap planning, and time tracking.</li>
+        </ul>
+    </div>
+
+    <!-- Learning and Education -->
+    <h2 onclick="toggleContent('learning')">10. Learning and Education</h2>
+    <div class="content" id="learning">
+        <ul>
+            <li><a href="https://apps.ankiweb.net/" target="_blank">Anki</a>: An open-source flashcard program that uses spaced repetition to optimize learning.</li>
+            <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>: A free online educational platform offering courses in a wide variety of subjects.</li>
+            <li><a href="https://www.coursera.org/" target="_blank">Coursera</a>: Offers some free courses and certifications in partnership with universities and companies.</li>
+        </ul>
+    </div>
+
+    <!-- System and Hardware Tools -->
+    <h2 onclick="toggleContent('systemtools')">11. System and Hardware Tools</h2>
+    <div class="content" id="systemtools">
+        <ul>
+            <li><a href="https://www.videolan.org/vlc/index.html" target="_blank">VLC Media Player</a>: An open-source, cross-platform multimedia player that plays most multimedia files.</li>
+            <li><a href="https://obsproject.com/" target="_blank">OBS Studio</a>: Free, open-source software for video recording and live streaming.</li>
+            <li><a href="https://www.cpuid.com/softwares/cpu-z.html" target="_blank">CPU-Z</a>: A freeware system profiler that gathers information on some of the main devices in your system.</li>
+            <li><a href="https://www.cpuid.com/softwares/hwmonitor.html" target="_blank">HWMonitor</a>: A hardware monitoring program that reads your PC system's main health sensors: voltages, temperatures, and fan speeds.</li>
+        </ul>
+    </div>
+
+    <!-- Text-to-Speech (TTS) -->
+    <h2 onclick="toggleContent('tts')">12. Text-to-Speech (TTS)</h2>
+    <div class="content" id="tts">
+        <ul>
+            <li><a href="https://ttsmaker.com/" target="_blank">TTSMaker</a>: A free online TTS service that converts text into natural-sounding speech in multiple languages.</li>
+            <li><a href="https://www.naturalreaders.com/" target="_blank">NaturalReader</a>: An online TTS tool with a free version, offering a range of voices and languages.</li>
+            <li><a href="https://cloud.google.com/text-to-speech" target="_blank">Google Cloud Text-to-Speech</a>: Provides realistic voice synthesis in many languages with a limited free tier.</li>
+            <li><a href="https://www.ibm.com/cloud/watson-text-to-speech" target="_blank">IBM Watson Text-to-Speech</a>: Offers high-quality voices with various customization options, available online with a free tier.</li>
+            <li><a href="https://www.cross-plus-a.com/balabolka.htm" target="_blank">Balabolka</a>: A free TTS program for Windows that supports many voices and languages.</li>
+        </ul>
+    </div>
+
+    <!-- Songwriting and Music Tools -->
+    <h2 onclick="toggleContent('songwriting')">13. Songwriting and Music Tools</h2>
+    <div class="content" id="songwriting">
+        <ul>
+            <li><a href="https://ilovesong.ai/" target="_blank">iLoveSong.ai</a>: An AI-powered songwriting tool that helps generate lyrics and melodies based on user inputs.</li>
+            <li><a href="https://www.ampermusic.com/" target="_blank">Amper Music</a>: An online platform that uses AI to compose original music tracks based on the style and mood you select.</li>
+            <li><a href="https://www.soundtrap.com/" target="_blank">Soundtrap</a>: An online DAW (Digital Audio Workstation) that allows you to create music and podcasts collaboratively in your browser.</li>
+            <li><a href="https://lmms.io/" target="_blank">LMMS</a>: A free, open-source cross-platform alternative to commercial programs like FL Studio, ideal for music production.</li>
+            <li><a href="https://magenta.tensorflow.org/studio" target="_blank">Magenta Studio</a>: A collection of music plugins built on Google’s Magenta project that uses machine learning to generate musical elements.</li>
+        </ul>
+    </div>
+
+    <!-- Image Generation and Editing -->
+    <h2 onclick="toggleContent('imagegeneration')">14. Image Generation and Editing</h2>
+    <div class="content" id="imagegeneration">
+        <ul>
+            <li><a href="https://www.openai.com/dall-e-2" target="_blank">DALL·E</a>: An AI image generator that creates images from textual descriptions. DALL·E 2 is available via OpenAI's API.</li>
+            <li><a href="https://deepart.io/" target="_blank">DeepArt</a>: An online tool that uses neural networks to turn your photos into artwork in various styles.</li>
+            <li><a href="https://www.artbreeder.com/" target="_blank">Artbreeder</a>: A creative community that uses machine learning to generate and blend images.</li>
+            <li><a href="https://www.canva.com/" target="_blank">Canva</a>: While primarily a design tool, Canva also offers free image creation and editing features with numerous templates.</li>
+            <li><a href="https://pixlr.com/" target="_blank">Pixlr</a>: A free online photo editor with many of the same features as Photoshop, available in your web browser.</li>
+        </ul>
+    </div>
+
+    <!-- Video Generation and Editing -->
+    <h2 onclick="toggleContent('videogeneration')">15. Video Generation and Editing</h2>
+    <div class="content" id="videogeneration">
+        <ul>
+            <li><a href="https://pictory.ai/" target="_blank">Pictory</a>: An AI video generator that turns long-form content like articles and scripts into short videos.</li>
+            <li><a href="https://lumen5.com/" target="_blank">Lumen5</a>: An online platform that converts blog posts into engaging videos using AI-driven templates.</li>
+            <li><a href="https://www.openshot.org/" target="_blank">OpenShot</a>: A free, open-source video editor that is easy to use and feature-rich.</li>
+            <li><a href="https://fxhome.com/product/hitfilm" target="_blank">HitFilm Express</a>: A free video editing and VFX software suitable for beginners and professionals alike.</li>
+            <li><a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank">DaVinci Resolve</a>: A professional-grade video editor with a free version offering advanced editing, color correction, and audio post-production features.</li>
+        </ul>
+    </div>
+
+    <!-- AI Art and Design Tools -->
+    <h2 onclick="toggleContent('aiart')">16. AI Art and Design Tools</h2>
+    <div class="content" id="aiart">
+        <ul>
+            <li><a href="https://creator.nightcafe.studio/" target="_blank">NightCafe Creator</a>: An AI art generator that creates stunning artworks from text prompts, using various algorithms like VQGAN+CLIP.</li>
+            <li><a href="https://runwayml.com/" target="_blank">Runway ML</a>: An AI tool for creators that offers various machine learning models for image and video generation, text generation, and more.</li>
+            <li><a href="https://deepdreamgenerator.com/" target="_blank">Deep Dream Generator</a>: An online tool that uses neural networks to generate dream-like, surreal images.</li>
+            <li><a href="https://www.letsenhance.io/" target="_blank">Let's Enhance</a>: An AI-based image upscaling tool that improves resolution while preserving image quality.</li>
+        </ul>
+    </div>
+
+    <!-- Writing and Content Creation -->
+    <h2 onclick="toggleContent('writingtools')">17. Writing and Content Creation</h2>
+    <div class="content" id="writingtools">
+        <ul>
+            <li><a href="https://www.grammarly.com/" target="_blank">Grammarly</a>: An online writing assistant that checks grammar, punctuation, and style, with a free version available.</li>
+            <li><a href="https://hemingwayapp.com/" target="_blank">Hemingway Editor</a>: A free online tool that helps you write clear and concise content by highlighting complex sentences and common errors.</li>
+            <li><a href="https://www.jasper.ai/" target="_blank">Jasper.ai</a>: An AI writing assistant that helps generate high-quality content, such as blog posts, social media updates, and more.</li>
+            <li><a href="https://prowritingaid.com/" target="_blank">ProWritingAid</a>: A writing assistant that offers grammar and style checks, with a free version available online.</li>
+            <li><a href="https://www.quillbot.com/" target="_blank">Quillbot</a>: An AI-based paraphrasing tool that helps rephrase content while maintaining the original meaning.</li>
+        </ul>
+    </div>
+
+    <!-- Presentation and Infographic Tools -->
+    <h2 onclick="toggleContent('presentationtools')">18. Presentation and Infographic Tools</h2>
+    <div class="content" id="presentationtools">
+        <ul>
+            <li><a href="https://prezi.com/" target="_blank">Prezi</a>: An online presentation tool that offers a more dynamic and engaging alternative to traditional slide-based presentations.</li>
+            <li><a href="https://www.visme.co/" target="_blank">Visme</a>: An online platform for creating presentations, infographics, and other visual content, with a free tier.</li>
+            <li><a href="https://venngage.com/" target="_blank">Venngage</a>: A free online tool for creating infographics, reports, and other visual content with a drag-and-drop interface.</li>
+            <li><a href="https://piktochart.com/" target="_blank">Piktochart</a>: An online tool for creating infographics, presentations, and printables, with a free plan available.</li>
+        </ul>
+    </div>
+
+    <!-- Screen Recording and Streaming -->
+    <h2 onclick="toggleContent('screenrecording')">19. Screen Recording and Streaming</h2>
+    <div class="content" id="screenrecording">
+        <ul>
+            <li><a href="https://obsproject.com/" target="_blank">OBS Studio</a>: Free, open-source software for video recording and live streaming, popular among content creators.</li>
+            <li><a href="https://www.loom.com/" target="_blank">Loom</a>: An online tool for recording quick video messages that can be shared with others, with a free plan available.</li>
+            <li><a href="https://getsharex.com/" target="_blank">ShareX</a>: A free, open-source screen capture, file sharing, and productivity tool for Windows.</li>
+            <li><a href="https://screencast-o-matic.com/" target="_blank">Screencast-O-Matic</a>: A free online screen recording tool that allows you to capture your screen and webcam, with basic editing features.</li>
+        </ul>
+    </div>
+
+    <!-- Collaboration and Project Management -->
+    <h2 onclick="toggleContent('collaboration')">20. Collaboration and Project Management</h2>
+    <div class="content" id="collaboration">
+        <ul>
+            <li><a href="https://miro.com/" target="_blank">Miro</a>: An online collaborative whiteboard platform that allows teams to work together in real-time, with a free tier.</li>
+            <li><a href="https://www.figma.com/" target="_blank">Figma</a>: An online design tool that allows for real-time collaboration on UI/UX design projects, with a free version available.</li>
+            <li><a href="https://asana.com/" target="_blank">Asana</a>: A project management tool that offers a free version for small teams to manage tasks, projects, and workflows.</li>
+            <li><a href="https://www.notion.so/" target="_blank">Notion</a>: An all-in-one workspace that blends notes, tasks, databases, and calendars, with a robust free tier.</li>
+        </ul>
+    </div>
+
+    <!-- 3D Modeling and Animation -->
+    <h2 onclick="toggleContent('3dmodeling')">21. 3D Modeling and Animation</h2>
+    <div class="content" id="3dmodeling">
+        <ul>
+            <li><a href="https://www.tinkercad.com/" target="_blank">Tinkercad</a>: A free, easy-to-use app for 3D design, electronics, and coding. It’s great for beginners.</li>
+            <li><a href="https://www.blender.org/" target="_blank">Blender</a>: A powerful open-source 3D creation suite for modeling, animation, simulation, and rendering.</li>
+            <li><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free" target="_blank">SketchUp Free</a>: An easy-to-use 3D modeling tool that runs in a web browser, suitable for architectural and engineering designs.</li>
+            <li><a href="https://www.mixamo.com/" target="_blank">Mixamo</a>: An online tool by Adobe that provides free 3D character animations and rigging services.</li>
+            <li><a href="https://www.daz3d.com/" target="_blank">Daz 3D</a>: A free 3D creation tool specializing in character creation, customization, and rendering.</li>
+        </ul>
+    </div>
+
+    <!-- Data Visualization -->
+    <h2 onclick="toggleContent('datavisualization')">22. Data Visualization</h2>
+    <div class="content" id="datavisualization">
+        <ul>
+            <li><a href="https://public.tableau.com/en-us/s/" target="_blank">Tableau Public</a>: A free platform to create and share data visualizations online.</li>
+            <li><a href="https://datastudio.google.com/" target="_blank">Google Data Studio</a>: A free tool to turn your data into informative, easy-to-read, shareable dashboards and reports.</li>
+            <li><a href="https://www.chartjs.org/" target="_blank">Chart.js</a>: A free, open-source JavaScript library for creating dynamic and responsive charts in your web applications.</li>
+            <li><a href="https://d3js.org/" target="_blank">D3.js</a>: A JavaScript library for producing dynamic, interactive data visualizations in web browsers.</li>
+        </ul>
+    </div>
+
+    <!-- File Conversion and Compression -->
+    <h2 onclick="toggleContent('fileconversion')">23. File Conversion and Compression</h2>
+    <div class="content" id="fileconversion">
+        <ul>
+            <li><a href="https://cloudconvert.com/" target="_blank">CloudConvert</a>: An online file converter that supports nearly all audio, video, document, ebook, archive, image, spreadsheet, and presentation formats.</li>
+            <li><a href="https://handbrake.fr/" target="_blank">HandBrake</a>: An open-source tool for converting video from nearly any format to a selection of modern, widely supported codecs.</li>
+            <li><a href="https://www.pdfescape.com/" target="_blank">PDFescape</a>: A free online PDF editor and form filler that also offers conversion tools.</li>
+            <li><a href="https://www.zamzar.com/" target="_blank">Zamzar</a>: A free online tool for converting files, supporting a wide range of formats.</li>
+            <li><a href="https://www.online-convert.com/" target="_blank">Online-Convert</a>: A free online tool to convert media files between formats like audio, video, image, document, and more.</li>
+        </ul>
+    </div>
+
+    <!-- Mind Mapping and Brainstorming -->
+    <h2 onclick="toggleContent('mindmapping')">24. Mind Mapping and Brainstorming</h2>
+    <div class="content" id="mindmapping">
+        <ul>
+            <li><a href="https://www.mindmeister.com/" target="_blank">MindMeister</a>: An online mind mapping tool that allows you to create, share, and collaborate on mind maps, with a free plan.</li>
+            <li><a href="https://coggle.it/" target="_blank">Coggle</a>: A free online tool for creating and sharing mind maps and flowcharts.</li>
+            <li><a href="https://www.xmind.net/" target="_blank">XMind</a>: A mind mapping and brainstorming tool with both a free desktop version and an online version.</li>
+        </ul>
+    </div>
+
+    <!-- Coding Practice and Learning -->
+    <h2 onclick="toggleContent('codingpractice')">25. Coding Practice and Learning</h2>
+    <div class="content" id="codingpractice">
+        <ul>
+            <li><a href="https://leetcode.com/" target="_blank">LeetCode</a>: A platform for practicing coding and preparing for technical interviews, offering many problems for free.</li>
+            <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>: An online platform for coding practice and competitions, with free challenges across various domains.</li>
+            <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a>: An online interactive platform offering free coding lessons in various programming languages.</li>
+            <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>: A free online platform that offers a full curriculum for learning to code and earning certifications.</li>
+            <li><a href="https://projecteuler.net/" target="_blank">Project Euler</a>: A collection of challenging mathematical/computer programming problems that require more than just mathematical insights to solve.</li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+    function toggleContent(id) {
+        const content = document.getElementById(id);
+        content.style.display = content.style.display === "none" ? "block" : "none";
+    }
+</script>
+
+</body>
+</html>
